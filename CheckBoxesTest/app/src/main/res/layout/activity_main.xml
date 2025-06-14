@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#c6c9c6">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Hobbies:"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/chkReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading"/>
+
+    <CheckBox
+        android:id="@+id/chkTravelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travelling"/>
+
+    <CheckBox
+        android:id="@+id/chkGaming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaming"/>
+
+    <CheckBox
+        android:id="@+id/chkCooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cooking"/>
+
+    <Button
+        android:id="@+id/btnShowSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Show Selected Hobbes"
+        android:backgroundTint="@color/black"
+        android:textColor="#cf0000"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#0acc13"/>
+
+</LinearLayout>
