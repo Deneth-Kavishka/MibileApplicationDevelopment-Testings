@@ -1,0 +1,1 @@
+This app simulates check boxes in mobile apps (Android).
