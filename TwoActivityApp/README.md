@@ -1,0 +1,1 @@
+This application cuse to practice activity in mobile apps (Android).

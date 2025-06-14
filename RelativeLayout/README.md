@@ -1,0 +1,1 @@
+This application check Relative Layout in mobile apps (Android).
